@@ -139,7 +139,9 @@ function ServiceCard({
                 </div>
               </div>
               <a
-                href="#contact"
+                href="https://calendly.com/mikolaj-kubacki/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[11px] uppercase tracking-[0.1em] text-accent hover:text-accent-hover border-b border-accent/30 hover:border-accent-hover pb-0.5 transition-all duration-200"
               >
                 {learnMore} →

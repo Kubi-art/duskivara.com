@@ -139,7 +139,9 @@ export default function ROICalculator() {
 
             {/* CTA */}
             <a
-              href="#contact"
+              href="https://calendly.com/mikolaj-kubacki/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-8 block w-full bg-accent hover:bg-accent-hover text-bg text-center text-[11px] uppercase tracking-[0.05em] font-semibold py-4 transition-colors duration-200 rounded-btn"
             >
               {t('cta')}

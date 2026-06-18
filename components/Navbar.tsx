@@ -134,7 +134,9 @@ export default function Navbar() {
             {locale === 'pl' ? 'EN' : 'PL'}
           </button>
           <a
-            href="#contact"
+            href="https://calendly.com/mikolaj-kubacki/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:inline-flex text-[11px] uppercase tracking-[0.05em] font-semibold bg-accent text-bg px-5 py-2.5 hover:bg-accent-hover transition-colors duration-200 rounded-btn"
           >
             {t('cta')}

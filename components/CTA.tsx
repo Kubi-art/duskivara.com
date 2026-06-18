@@ -25,7 +25,9 @@ export default function CTA() {
           <FadeIn delay={0.2}>
             <div className="mt-10">
               <a
-                href="mailto:hello@duskivara.com"
+                href="https://calendly.com/mikolaj-kubacki/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center gap-4 bg-accent text-bg px-10 py-4 text-[11px] uppercase tracking-[0.05em] font-semibold hover:bg-accent-hover transition-colors duration-200 rounded-btn"
               >
                 {t('button')}

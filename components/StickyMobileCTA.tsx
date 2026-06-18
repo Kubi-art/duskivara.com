@@ -14,7 +14,9 @@ export default function StickyMobileCTA() {
       transition={{ duration: 0.4, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
     >
       <a
-        href="#contact"
+        href="https://calendly.com/mikolaj-kubacki/30min"
+        target="_blank"
+        rel="noopener noreferrer"
         className="block w-full bg-accent hover:bg-accent-hover text-bg text-center text-[12px] uppercase tracking-[0.08em] font-semibold py-3.5 transition-colors duration-200 rounded-btn"
       >
         {t('button')}

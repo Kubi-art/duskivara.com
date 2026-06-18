@@ -81,7 +81,9 @@ export default function Hero() {
             {t('subtext')}
           </p>
           <a
-            href="#contact"
+            href="https://calendly.com/mikolaj-kubacki/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group inline-flex items-center gap-4 bg-accent text-bg px-8 py-4 text-[11px] uppercase tracking-[0.05em] font-semibold hover:bg-accent-hover transition-colors duration-200 whitespace-nowrap rounded-btn"
           >
             {t('cta')}
