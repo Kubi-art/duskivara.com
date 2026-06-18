@@ -21,7 +21,11 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="flex items-center gap-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/logo.svg" alt="" style={{ height: '26px', width: 'auto' }} />
+            <img
+              src="/logo.jpg"
+              alt=""
+              style={{ height: '30px', width: 'auto', mixBlendMode: 'screen' }}
+            />
             <span className="text-sm font-semibold tracking-tight text-text-primary">
               Duskivara
             </span>

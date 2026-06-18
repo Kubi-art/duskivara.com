@@ -57,9 +57,14 @@ export default function Navbar() {
           {!logoError ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src="/logo.svg"
+              src="/logo.jpg"
               alt=""
-              style={{ height: '30px', width: 'auto', display: 'block' }}
+              style={{
+                height: '36px',
+                width: 'auto',
+                display: 'block',
+                mixBlendMode: 'screen',
+              }}
               onError={() => setLogoError(true)}
             />
           ) : (
