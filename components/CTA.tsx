@@ -40,7 +40,7 @@ export default function CTA() {
             <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-10">
               <div className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-                <span className="text-xs text-muted">Available now</span>
+                <span className="text-xs text-muted">{t('availableNow')}</span>
               </div>
               <a
                 href="mailto:hello@duskivara.com"

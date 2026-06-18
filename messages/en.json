@@ -3,13 +3,13 @@
     "services": "Services",
     "howItWorks": "How it works",
     "contact": "Contact",
-    "cta": "Let's talk"
+    "cta": "Try for free"
   },
   "hero": {
     "headline1": "Your business runs.",
     "headline2": "Even while you sleep.",
-    "subtext": "We automate repetitive tasks — customer support, lead capture, follow-ups — so you can focus on what matters.",
-    "cta": "Let's talk"
+    "subtext": "Clients write and call — the bot responds for you. You only hear about the ones who want to buy.",
+    "cta": "Try for free"
   },
   "announcement": {
     "text": "First 5 businesses in July get deployment in 5 days — 3 spots left"
@@ -71,19 +71,23 @@
   },
   "problem": {
     "label": "The problem",
-    "intro": "Every day you waste time on things a machine can do better.",
+    "intro": "Sound familiar?",
+    "subheadline": "You're losing clients you never even see.",
     "items": [
       {
         "number": "01",
-        "text": "You answer the same questions a hundred times a week. By phone, by text, by Messenger."
+        "title": "They write after hours",
+        "text": "Someone wants to book at 10pm. No one replies. By morning they've called someone else."
       },
       {
         "number": "02",
-        "text": "Potential clients write at 11pm. Nobody answers. By morning they've contacted your competitor."
+        "title": "They call when your hands are full",
+        "text": "You're under a car or with a patient. The phone rings. Nobody answers. Another lost client."
       },
       {
         "number": "03",
-        "text": "Follow-ups after meetings? Reminders? Quotes? You do them manually — or not at all."
+        "title": "You repeat yourself all day",
+        "text": "How much does it cost? Do you have free slots? How do I get there? You answer the same questions 20 times a day."
       }
     ]
   },
@@ -96,7 +100,7 @@
       {
         "id": "chatbot",
         "name": "AutoReply",
-        "tagline": "Bot for website & WhatsApp",
+        "tagline": "Bot that replies for you",
         "description": "A client writes at 11pm asking about your prices. The bot replies in 10 seconds. You find out in the morning. Zero missed enquiries.",
         "setup": "€350",
         "monthly": "€70 / mo",
@@ -106,7 +110,7 @@
       {
         "id": "leads",
         "name": "AutoLeads",
-        "tagline": "Capturing customers around the clock",
+        "tagline": "System that catches every client",
         "description": "Someone fills in a form on your website — you get an SMS with their details within 60 seconds. No lead slips through.",
         "setup": "€580",
         "monthly": "€95 / mo",
@@ -117,7 +121,7 @@
       {
         "id": "voice",
         "name": "AutoAssistant",
-        "tagline": "Virtual receptionist",
+        "tagline": "Virtual receptionist by phone",
         "description": "The phone rings while you're under a car or with a patient. The bot answers, handles questions, and books the appointment. Like having a receptionist — 10x cheaper.",
         "setup": "€820",
         "monthly": "€120 / mo",
@@ -150,10 +154,11 @@
   "cta": {
     "headline": "Ready to stop answering the same questions?",
     "subtext": "One conversation. No obligations. Find out what we can automate in your business.",
-    "button": "Schedule a call"
+    "button": "See if it works for you",
+    "availableNow": "Available now"
   },
   "footer": {
-    "tagline": "Automation for small and medium businesses.",
+    "tagline": "Bots and automations for Polish businesses.",
     "email": "hello@duskivara.com",
     "copyright": "© 2025 Duskivara. All rights reserved.",
     "language": "Language"

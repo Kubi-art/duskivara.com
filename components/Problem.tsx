@@ -5,7 +5,7 @@ import FadeIn from './FadeIn';
 
 export default function Problem() {
   const t = useTranslations('problem');
-  const items = t.raw('items') as Array<{ number: string; text: string }>;
+  const items = t.raw('items') as Array<{ number: string; title: string; text: string }>;
 
   return (
     <section className="py-20 md:py-24 border-b border-divider">
@@ -16,9 +16,12 @@ export default function Problem() {
           </span>
         </FadeIn>
 
-        <FadeIn delay={0.1}>
-          <p className="mt-5 text-base text-muted max-w-lg leading-relaxed">
+        <FadeIn delay={0.08}>
+          <h2 className="mt-4 text-3xl md:text-4xl font-semibold text-text-primary tracking-tight">
             {t('intro')}
+          </h2>
+          <p className="mt-3 text-base text-muted max-w-lg leading-relaxed">
+            {t('subheadline')}
           </p>
         </FadeIn>
 
@@ -29,7 +32,10 @@ export default function Problem() {
                 <span className="block text-[4.5rem] md:text-[5.5rem] font-semibold leading-none tracking-tightest text-accent/30 mb-6 select-none">
                   {item.number}
                 </span>
-                <p className="text-sm text-text-primary leading-relaxed max-w-xs">
+                <p className="text-base font-semibold text-text-primary mb-2">
+                  {item.title}
+                </p>
+                <p className="text-sm text-muted leading-relaxed max-w-xs">
                   {item.text}
                 </p>
               </div>

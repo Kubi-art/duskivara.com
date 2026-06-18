@@ -112,7 +112,7 @@ function ServiceCard({
           )}
 
           <div className="flex-1">
-            <span className="text-[10px] uppercase tracking-[0.2em] text-muted">
+            <span className="text-sm text-muted">
               {item.tagline}
             </span>
 

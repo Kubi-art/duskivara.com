@@ -5,40 +5,6 @@ import { motion, useMotionTemplate, useMotionValue } from 'framer-motion';
 import { useCallback } from 'react';
 import { IconLock, IconBolt, IconHeadphones } from '@tabler/icons-react';
 
-function WordReveal({
-  text,
-  className,
-  delay = 0,
-}: {
-  text: string;
-  className?: string;
-  delay?: number;
-}) {
-  const words = text.split(' ');
-  return (
-    <span
-      className={className}
-      style={{ display: 'flex', flexWrap: 'wrap', columnGap: '0.25em', overflow: 'visible' }}
-    >
-      {words.map((word, i) => (
-        <span key={i} style={{ display: 'inline-block', overflow: 'hidden' }}>
-          <motion.span
-            style={{ display: 'inline-block' }}
-            initial={{ y: '105%', opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{
-              duration: 0.55,
-              ease: [0.16, 1, 0.3, 1],
-              delay: delay + i * 0.07,
-            }}
-          >
-            {word}
-          </motion.span>
-        </span>
-      ))}
-    </span>
-  );
-}
 
 const notificationCards = [
   {
@@ -118,22 +84,23 @@ export default function Hero() {
               </span>
             </motion.div>
 
-            {/* Line 1 — white */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight mb-1 overflow-visible">
-              <WordReveal
-                text={t('headline1')}
-                className="text-text-primary"
-                delay={0.18}
-              />
-            </h1>
-
-            {/* Line 2 — amber */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight mb-12 overflow-visible">
-              <WordReveal
-                text={t('headline2')}
-                className="text-accent"
-                delay={0.48}
-              />
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight mb-12">
+              <motion.span
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.18 }}
+                style={{ display: 'block' }}
+              >
+                {t('headline1')}
+              </motion.span>
+              <motion.span
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.48 }}
+                style={{ display: 'block', color: '#D97706' }}
+              >
+                {t('headline2')}
+              </motion.span>
             </h1>
 
             <motion.div

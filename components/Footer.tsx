@@ -24,7 +24,7 @@ export default function Footer() {
             <img
               src="/logo.png"
               alt=""
-              style={{ height: '30px', width: 'auto', mixBlendMode: 'screen' }}
+              style={{ height: '28px', width: 'auto', filter: 'brightness(0) invert(1)' }}
             />
             <span className="text-sm font-semibold tracking-tight text-text-primary">
               Duskivara

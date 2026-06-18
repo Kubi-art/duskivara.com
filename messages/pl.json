@@ -3,13 +3,13 @@
     "services": "Usługi",
     "howItWorks": "Jak to działa",
     "contact": "Kontakt",
-    "cta": "Porozmawiajmy"
+    "cta": "Sprawdź za darmo"
   },
   "hero": {
     "headline1": "Twój biznes działa.",
     "headline2": "Nawet gdy śpisz.",
-    "subtext": "Automatyzujemy powtarzalne zadania — obsługę klientów, zbieranie leadów, follow-upy — żebyś mógł skupić się na tym, co ważne.",
-    "cta": "Porozmawiajmy"
+    "subtext": "Klienci piszą i dzwonią — bot odpowiada za Ciebie. Ty dowiadujesz się tylko o tych którzy chcą kupić.",
+    "cta": "Sprawdź za darmo"
   },
   "announcement": {
     "text": "Pierwsze 5 firm w lipcu otrzymuje wdrożenie w 5 dni — zostały 3 miejsca"
@@ -71,19 +71,23 @@
   },
   "problem": {
     "label": "Problem",
-    "intro": "Każdego dnia tracisz czas na rzeczy, które maszyna może zrobić lepiej.",
+    "intro": "Znasz to uczucie?",
+    "subheadline": "Tracisz klientów których nigdy nie widzisz.",
     "items": [
       {
         "number": "01",
-        "text": "Odpowiadasz na te same pytania sto razy w tygodniu. Przez telefon, przez SMS, przez Messengera."
+        "title": "Piszą po godzinach",
+        "text": "Ktoś chce umówić wizytę o 22:00. Nikt nie odpowiada. Rano dzwoni do kogoś innego."
       },
       {
         "number": "02",
-        "text": "Potencjalni klienci piszą o 23:00. Nikt nie odpowiada. Rano piszą do konkurencji."
+        "title": "Dzwonią gdy masz ręce zajęte",
+        "text": "Jesteś pod samochodem albo przy kliencie. Telefon dzwoni. Nikt nie odbiera. Kolejny stracony klient."
       },
       {
         "number": "03",
-        "text": "Follow-upy po spotkaniach? Przypomnienia? Wyceny? Robisz to ręcznie albo wcale."
+        "title": "Powtarzasz to samo w kółko",
+        "text": "Ile kosztuje? Czy macie wolne terminy? Jak dojechać? Odpowiadasz na te same pytania 20 razy dziennie."
       }
     ]
   },
@@ -96,7 +100,7 @@
       {
         "id": "chatbot",
         "name": "AutoOdpowiedź",
-        "tagline": "Bot na stronę i WhatsApp",
+        "tagline": "Bot który odpowiada za Ciebie",
         "description": "Klient pisze o 23:00 z pytaniem o cenę. Bot odpowiada w 10 sekund. Ty dowiadujesz się rano. Zero nieodebranych zapytań.",
         "setup": "1500 zł",
         "monthly": "300 zł / mies",
@@ -106,7 +110,7 @@
       {
         "id": "leads",
         "name": "AutoLeady",
-        "tagline": "Zbieranie klientów przez całą dobę",
+        "tagline": "System który łapie każdego klienta",
         "description": "Ktoś wypełnia formularz na Twojej stronie — dostajesz SMS z jego danymi w 60 sekund. Żaden lead nie przepada.",
         "setup": "2500 zł",
         "monthly": "400 zł / mies",
@@ -117,7 +121,7 @@
       {
         "id": "voice",
         "name": "AutoAsystent",
-        "tagline": "Wirtualna recepcjonistka",
+        "tagline": "Wirtualna recepcjonistka przez telefon",
         "description": "Telefon dzwoni kiedy jesteś pod autem albo przy pacjencie. Bot odbiera, odpowiada na pytania i zapisuje wizytę. Jakbyś miał recepcjonistkę — tylko 10x taniej.",
         "setup": "3500 zł",
         "monthly": "500 zł / mies",
@@ -150,10 +154,11 @@
   "cta": {
     "headline": "Gotowy żeby przestać odpowiadać na te same pytania?",
     "subtext": "Jedna rozmowa. Zero zobowiązań. Dowiedz się, co możemy zautomatyzować w Twoim biznesie.",
-    "button": "Umów rozmowę"
+    "button": "Sprawdź czy to działa u Ciebie",
+    "availableNow": "Dostępni teraz"
   },
   "footer": {
-    "tagline": "Automatyzacja dla małych i średnich firm.",
+    "tagline": "Boty i automatyzacje dla polskich firm.",
     "email": "hello@duskivara.com",
     "copyright": "© 2025 Duskivara. Wszelkie prawa zastrzeżone.",
     "language": "Język"
