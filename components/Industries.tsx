@@ -4,14 +4,14 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import {
   IconCar,
-  IconTooth,
+  IconDental,
   IconScissors,
   IconBook,
   IconHome,
   IconBolt,
 } from '@tabler/icons-react';
 
-const icons = [IconCar, IconTooth, IconScissors, IconBook, IconHome, IconBolt];
+const icons = [IconCar, IconDental, IconScissors, IconBook, IconHome, IconBolt];
 
 const containerVariants = {
   hidden: {},
