@@ -147,27 +147,6 @@
       }
     ]
   },
-  "testimonials": {
-    "label": "Testimonials",
-    "title": "What clients say.",
-    "items": [
-      {
-        "quote": "I used to spend 2 hours a day answering the same questions about pricing and availability. Now the bot does it for me. Clients don't even know it's not me.",
-        "author": "Auto repair shop owner",
-        "location": "Warsaw"
-      },
-      {
-        "quote": "I had a problem losing leads on weekends. Since AutoLeads, every contact lands in my CRM automatically and I get an SMS when someone fills out the form.",
-        "author": "Beauty salon owner",
-        "location": "Kraków"
-      },
-      {
-        "quote": "I didn't think this was for me — but setup took a week and results were immediate. I recommend it to anyone who wastes time on repetitive tasks.",
-        "author": "Construction company owner",
-        "location": "Poznań"
-      }
-    ]
-  },
   "cta": {
     "headline": "Ready to stop answering the same questions?",
     "subtext": "One conversation. No obligations. Find out what we can automate in your business.",

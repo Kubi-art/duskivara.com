@@ -88,26 +88,26 @@ export default function Navbar() {
       )}
       <nav className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
         {/* Logo */}
-        <a href={`/${locale}`} className="flex items-center gap-2.5">
+        <a href={`/${locale}`} style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           {!logoError ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src="/logo.png"
               alt=""
               style={{
-                height: '36px',
+                height: '28px',
                 width: 'auto',
                 display: 'block',
-                mixBlendMode: 'screen',
+                filter: 'brightness(0) invert(1)',
               }}
               onError={() => setLogoError(true)}
             />
           ) : (
-            <span style={{ color: '#F5F0E8', fontWeight: 700, fontSize: '20px', lineHeight: 1 }}>
+            <span style={{ color: '#D97706', fontWeight: 700, fontSize: '20px', lineHeight: 1 }}>
               D
             </span>
           )}
-          <span className="text-text-primary font-medium tracking-tight text-sm">
+          <span style={{ color: '#F5F0E8', fontSize: '18px', fontWeight: 500 }}>
             Duskivara
           </span>
         </a>

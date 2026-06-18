@@ -147,27 +147,6 @@
       }
     ]
   },
-  "testimonials": {
-    "label": "Opinie",
-    "title": "Co mówią klienci.",
-    "items": [
-      {
-        "quote": "Wcześniej spędzałem 2 godziny dziennie na odpowiadaniu na te same pytania o cennik i terminy. Teraz bot robi to za mnie. Klienci nawet nie wiedzą, że to nie ja.",
-        "author": "Właściciel warsztatu samochodowego",
-        "location": "Warszawa"
-      },
-      {
-        "quote": "Miałam problem z traceniem leadów w weekendy. Od kiedy mam AutoLeady, każdy kontakt ląduje w CRM automatycznie i dostaję SMS kiedy ktoś wypełni formularz.",
-        "author": "Właścicielka salonu kosmetycznego",
-        "location": "Kraków"
-      },
-      {
-        "quote": "Nie sądziłem, że to dla mnie — ale setup trwał tydzień, a efekty widać od razu. Polecam każdemu, kto traci czas na powtarzalne rzeczy.",
-        "author": "Właściciel firmy budowlanej",
-        "location": "Poznań"
-      }
-    ]
-  },
   "cta": {
     "headline": "Gotowy żeby przestać odpowiadać na te same pytania?",
     "subtext": "Jedna rozmowa. Zero zobowiązań. Dowiedz się, co możemy zautomatyzować w Twoim biznesie.",

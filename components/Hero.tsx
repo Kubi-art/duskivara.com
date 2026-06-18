@@ -16,11 +16,14 @@ function WordReveal({
 }) {
   const words = text.split(' ');
   return (
-    <span className={className}>
+    <span
+      className={className}
+      style={{ display: 'flex', flexWrap: 'wrap', columnGap: '0.25em', overflow: 'visible' }}
+    >
       {words.map((word, i) => (
-        <span key={i} className="inline-block overflow-hidden align-bottom">
+        <span key={i} style={{ display: 'inline-block', overflow: 'hidden' }}>
           <motion.span
-            className="inline-block"
+            style={{ display: 'inline-block' }}
             initial={{ y: '105%', opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{
@@ -31,7 +34,6 @@ function WordReveal({
           >
             {word}
           </motion.span>
-          {i < words.length - 1 ? ' ' : ''}
         </span>
       ))}
     </span>
@@ -117,7 +119,7 @@ export default function Hero() {
             </motion.div>
 
             {/* Line 1 — white */}
-            <h1 className="text-[clamp(2.6rem,7vw,6.5rem)] font-semibold leading-[0.95] tracking-tightest mb-1">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight mb-1 overflow-visible">
               <WordReveal
                 text={t('headline1')}
                 className="text-text-primary"
@@ -126,7 +128,7 @@ export default function Hero() {
             </h1>
 
             {/* Line 2 — amber */}
-            <h1 className="text-[clamp(2.6rem,7vw,6.5rem)] font-semibold leading-[0.95] tracking-tightest mb-16">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight tracking-tight mb-12 overflow-visible">
               <WordReveal
                 text={t('headline2')}
                 className="text-accent"
