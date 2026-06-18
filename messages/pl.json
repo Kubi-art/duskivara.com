@@ -31,40 +31,40 @@
   },
   "services": {
     "label": "Pakiety",
-    "title": "Trzy poziomy automatyzacji.",
-    "subtitle": "Wybierz zakres — my dostarczamy gotowe rozwiązanie.",
+    "title": "Trzy rzeczy które robią robotę za Ciebie.",
+    "subtitle": "Wybierz co Ci najbardziej zjada czas — resztą zajmiemy się my.",
     "learnMore": "Dowiedz się więcej",
     "items": [
       {
         "id": "chatbot",
         "name": "AutoOdpowiedź",
-        "tagline": "Chatbot na stronę i WhatsApp",
-        "description": "Twój asystent odpowiada natychmiast — na pytania o ofertę, cennik, dostępność. Przez całą dobę, bez Twojego udziału.",
+        "tagline": "Bot na stronę i WhatsApp",
+        "description": "Klient pisze o 23:00 z pytaniem o cenę. Bot odpowiada w 10 sekund. Ty dowiadujesz się rano. Zero nieodebranych zapytań.",
         "setup": "1500 zł",
-        "monthly": "300 zł/mies",
+        "monthly": "300 zł / mies",
         "setupLabel": "setup",
-        "monthlyLabel": "miesięcznie"
+        "monthlyLabel": ""
       },
       {
         "id": "leads",
         "name": "AutoLeady",
-        "tagline": "Automatyzacja leadów n8n + CRM",
-        "description": "Każdy nowy kontakt trafia automatycznie do Twojego CRM, dostaje e-mail powitalny i jest śledzony bez ręcznej pracy.",
+        "tagline": "Zbieranie klientów przez całą dobę",
+        "description": "Ktoś wypełnia formularz na Twojej stronie — dostajesz SMS z jego danymi w 60 sekund. Żaden lead nie przepada.",
         "setup": "2500 zł",
-        "monthly": "400 zł/mies",
+        "monthly": "400 zł / mies",
         "setupLabel": "setup",
-        "monthlyLabel": "miesięcznie",
+        "monthlyLabel": "",
         "featured": true
       },
       {
         "id": "voice",
         "name": "AutoAsystent",
-        "tagline": "Głosowy agent Vapi",
-        "description": "Agent głosowy odbiera telefony, odpowiada na pytania i ustawia wizyty — jak recepcjonista, tylko taniej i bez urlopów.",
+        "tagline": "Wirtualna recepcjonistka",
+        "description": "Telefon dzwoni kiedy jesteś pod autem albo przy pacjencie. Bot odbiera, odpowiada na pytania i zapisuje wizytę. Jakbyś miał recepcjonistkę — tylko 10x taniej.",
         "setup": "3500 zł",
-        "monthly": "500 zł/mies",
+        "monthly": "500 zł / mies",
         "setupLabel": "setup",
-        "monthlyLabel": "miesięcznie"
+        "monthlyLabel": ""
       }
     ]
   },

@@ -31,40 +31,40 @@
   },
   "services": {
     "label": "Packages",
-    "title": "Three levels of automation.",
-    "subtitle": "Choose your scope — we deliver the ready solution.",
+    "title": "Three things that work for you.",
+    "subtitle": "Choose what eats most of your time — we'll handle the rest.",
     "learnMore": "Learn more",
     "items": [
       {
         "id": "chatbot",
         "name": "AutoReply",
-        "tagline": "Chatbot for website & WhatsApp",
-        "description": "Your assistant responds instantly — questions about your offer, pricing, availability. Around the clock, without your involvement.",
+        "tagline": "Bot for website & WhatsApp",
+        "description": "A client writes at 11pm asking about your prices. The bot replies in 10 seconds. You find out in the morning. Zero missed enquiries.",
         "setup": "€350",
-        "monthly": "€70/mo",
+        "monthly": "€70 / mo",
         "setupLabel": "setup",
-        "monthlyLabel": "monthly"
+        "monthlyLabel": ""
       },
       {
         "id": "leads",
         "name": "AutoLeads",
-        "tagline": "Lead automation n8n + CRM",
-        "description": "Every new contact automatically lands in your CRM, receives a welcome email, and is tracked — without manual work.",
+        "tagline": "Capturing customers around the clock",
+        "description": "Someone fills in a form on your website — you get an SMS with their details within 60 seconds. No lead slips through.",
         "setup": "€580",
-        "monthly": "€95/mo",
+        "monthly": "€95 / mo",
         "setupLabel": "setup",
-        "monthlyLabel": "monthly",
+        "monthlyLabel": "",
         "featured": true
       },
       {
         "id": "voice",
         "name": "AutoAssistant",
-        "tagline": "Voice agent Vapi",
-        "description": "A voice agent answers calls, responds to questions, and books appointments — like a receptionist, but cheaper and without sick days.",
+        "tagline": "Virtual receptionist",
+        "description": "The phone rings while you're under a car or with a patient. The bot answers, handles questions, and books the appointment. Like having a receptionist — 10x cheaper.",
         "setup": "€820",
-        "monthly": "€120/mo",
+        "monthly": "€120 / mo",
         "setupLabel": "setup",
-        "monthlyLabel": "monthly"
+        "monthlyLabel": ""
       }
     ]
   },
