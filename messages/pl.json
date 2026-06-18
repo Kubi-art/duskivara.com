@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "services": "Usługi",
+    "howItWorks": "Jak to działa",
+    "contact": "Kontakt",
+    "cta": "Porozmawiajmy"
+  },
+  "hero": {
+    "headline1": "Twój biznes działa.",
+    "headline2": "Nawet gdy śpisz.",
+    "subtext": "Automatyzujemy powtarzalne zadania — obsługę klientów, zbieranie leadów, follow-upy — żebyś mógł skupić się na tym, co ważne.",
+    "cta": "Porozmawiajmy"
+  },
+  "problem": {
+    "label": "Problem",
+    "intro": "Każdego dnia tracisz czas na rzeczy, które maszyna może zrobić lepiej.",
+    "items": [
+      {
+        "number": "01",
+        "text": "Odpowiadasz na te same pytania sto razy w tygodniu. Przez telefon, przez SMS, przez Messengera."
+      },
+      {
+        "number": "02",
+        "text": "Potencjalni klienci piszą o 23:00. Nikt nie odpowiada. Rano piszą do konkurencji."
+      },
+      {
+        "number": "03",
+        "text": "Follow-upy po spotkaniach? Przypomnienia? Wyceny? Robisz to ręcznie albo wcale."
+      }
+    ]
+  },
+  "services": {
+    "label": "Pakiety",
+    "title": "Trzy poziomy automatyzacji.",
+    "subtitle": "Wybierz zakres — my dostarczamy gotowe rozwiązanie.",
+    "learnMore": "Dowiedz się więcej",
+    "items": [
+      {
+        "id": "chatbot",
+        "name": "AutoOdpowiedź",
+        "tagline": "Chatbot na stronę i WhatsApp",
+        "description": "Twój asystent odpowiada natychmiast — na pytania o ofertę, cennik, dostępność. Przez całą dobę, bez Twojego udziału.",
+        "setup": "1500 zł",
+        "monthly": "300 zł/mies",
+        "setupLabel": "setup",
+        "monthlyLabel": "miesięcznie"
+      },
+      {
+        "id": "leads",
+        "name": "AutoLeady",
+        "tagline": "Automatyzacja leadów n8n + CRM",
+        "description": "Każdy nowy kontakt trafia automatycznie do Twojego CRM, dostaje e-mail powitalny i jest śledzony bez ręcznej pracy.",
+        "setup": "2500 zł",
+        "monthly": "400 zł/mies",
+        "setupLabel": "setup",
+        "monthlyLabel": "miesięcznie",
+        "featured": true
+      },
+      {
+        "id": "voice",
+        "name": "AutoAsystent",
+        "tagline": "Głosowy agent Vapi",
+        "description": "Agent głosowy odbiera telefony, odpowiada na pytania i ustawia wizyty — jak recepcjonista, tylko taniej i bez urlopów.",
+        "setup": "3500 zł",
+        "monthly": "500 zł/mies",
+        "setupLabel": "setup",
+        "monthlyLabel": "miesięcznie"
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "Proces",
+    "title": "Trzy kroki do gotowego systemu.",
+    "steps": [
+      {
+        "number": "01",
+        "name": "Rozmowa",
+        "description": "15-minutowa rozmowa — mówisz, co zajmuje Ci czas, my oceniamy, co można zautomatyzować."
+      },
+      {
+        "number": "02",
+        "name": "Konfiguracja",
+        "description": "My konfigurujemy wszystko. Ty nie dotykasz żadnego kodu. Dostarczamy w 7–14 dni."
+      },
+      {
+        "number": "03",
+        "name": "Działa",
+        "description": "System pracuje 24/7. Ty widzisz wyniki. My dbamy o utrzymanie i aktualizacje."
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Opinie",
+    "title": "Co mówią klienci.",
+    "items": [
+      {
+        "quote": "Wcześniej spędzałem 2 godziny dziennie na odpowiadaniu na te same pytania o cennik i terminy. Teraz bot robi to za mnie. Klienci nawet nie wiedzą, że to nie ja.",
+        "author": "Właściciel warsztatu samochodowego",
+        "location": "Warszawa"
+      },
+      {
+        "quote": "Miałam problem z traceniem leadów w weekendy. Od kiedy mam AutoLeady, każdy kontakt ląduje w CRM automatycznie i dostaję SMS kiedy ktoś wypełni formularz.",
+        "author": "Właścicielka salonu kosmetycznego",
+        "location": "Kraków"
+      },
+      {
+        "quote": "Nie sądziłem, że to dla mnie — ale setup trwał tydzień, a efekty widać od razu. Polecam każdemu, kto traci czas na powtarzalne rzeczy.",
+        "author": "Właściciel firmy budowlanej",
+        "location": "Poznań"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Gotowy żeby przestać odpowiadać na te same pytania?",
+    "subtext": "Jedna rozmowa. Zero zobowiązań. Dowiedz się, co możemy zautomatyzować w Twoim biznesie.",
+    "button": "Umów rozmowę"
+  },
+  "footer": {
+    "tagline": "Automatyzacja dla małych i średnich firm.",
+    "email": "hello@duskivara.com",
+    "copyright": "© 2025 Duskivara. Wszelkie prawa zastrzeżone.",
+    "language": "Język"
+  }
+}

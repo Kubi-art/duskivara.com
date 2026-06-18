@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "services": "Services",
+    "howItWorks": "How it works",
+    "contact": "Contact",
+    "cta": "Let's talk"
+  },
+  "hero": {
+    "headline1": "Your business runs.",
+    "headline2": "Even while you sleep.",
+    "subtext": "We automate repetitive tasks — customer support, lead capture, follow-ups — so you can focus on what matters.",
+    "cta": "Let's talk"
+  },
+  "problem": {
+    "label": "The problem",
+    "intro": "Every day you waste time on things a machine can do better.",
+    "items": [
+      {
+        "number": "01",
+        "text": "You answer the same questions a hundred times a week. By phone, by text, by Messenger."
+      },
+      {
+        "number": "02",
+        "text": "Potential clients write at 11pm. Nobody answers. By morning they've contacted your competitor."
+      },
+      {
+        "number": "03",
+        "text": "Follow-ups after meetings? Reminders? Quotes? You do them manually — or not at all."
+      }
+    ]
+  },
+  "services": {
+    "label": "Packages",
+    "title": "Three levels of automation.",
+    "subtitle": "Choose your scope — we deliver the ready solution.",
+    "learnMore": "Learn more",
+    "items": [
+      {
+        "id": "chatbot",
+        "name": "AutoReply",
+        "tagline": "Chatbot for website & WhatsApp",
+        "description": "Your assistant responds instantly — questions about your offer, pricing, availability. Around the clock, without your involvement.",
+        "setup": "€350",
+        "monthly": "€70/mo",
+        "setupLabel": "setup",
+        "monthlyLabel": "monthly"
+      },
+      {
+        "id": "leads",
+        "name": "AutoLeads",
+        "tagline": "Lead automation n8n + CRM",
+        "description": "Every new contact automatically lands in your CRM, receives a welcome email, and is tracked — without manual work.",
+        "setup": "€580",
+        "monthly": "€95/mo",
+        "setupLabel": "setup",
+        "monthlyLabel": "monthly",
+        "featured": true
+      },
+      {
+        "id": "voice",
+        "name": "AutoAssistant",
+        "tagline": "Voice agent Vapi",
+        "description": "A voice agent answers calls, responds to questions, and books appointments — like a receptionist, but cheaper and without sick days.",
+        "setup": "€820",
+        "monthly": "€120/mo",
+        "setupLabel": "setup",
+        "monthlyLabel": "monthly"
+      }
+    ]
+  },
+  "howItWorks": {
+    "label": "Process",
+    "title": "Three steps to a working system.",
+    "steps": [
+      {
+        "number": "01",
+        "name": "Conversation",
+        "description": "A 15-minute call — you tell us what's eating your time, we assess what can be automated."
+      },
+      {
+        "number": "02",
+        "name": "Configuration",
+        "description": "We configure everything. You don't touch any code. Delivered in 7–14 days."
+      },
+      {
+        "number": "03",
+        "name": "It works",
+        "description": "The system works 24/7. You see results. We handle maintenance and updates."
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "title": "What clients say.",
+    "items": [
+      {
+        "quote": "I used to spend 2 hours a day answering the same questions about pricing and availability. Now the bot does it for me. Clients don't even know it's not me.",
+        "author": "Auto repair shop owner",
+        "location": "Warsaw"
+      },
+      {
+        "quote": "I had a problem losing leads on weekends. Since AutoLeads, every contact lands in my CRM automatically and I get an SMS when someone fills out the form.",
+        "author": "Beauty salon owner",
+        "location": "Kraków"
+      },
+      {
+        "quote": "I didn't think this was for me — but setup took a week and results were immediate. I recommend it to anyone who wastes time on repetitive tasks.",
+        "author": "Construction company owner",
+        "location": "Poznań"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to stop answering the same questions?",
+    "subtext": "One conversation. No obligations. Find out what we can automate in your business.",
+    "button": "Schedule a call"
+  },
+  "footer": {
+    "tagline": "Automation for small and medium businesses.",
+    "email": "hello@duskivara.com",
+    "copyright": "© 2025 Duskivara. All rights reserved.",
+    "language": "Language"
+  }
+}
