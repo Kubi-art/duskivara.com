@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!--
+    Duskivara "D" mark — white, transparent background.
+    Structure: bold D ring (outer arc r=66, inner arc r=42, left bar)
+    with two diagonal cuts creating the split/stripe effect.
+  -->
+  <defs>
+    <mask id="dMask">
+      <!-- D ring: outer boundary minus inner hollow, fill-rule evenodd cuts the hole -->
+      <path
+        fill="white"
+        fill-rule="evenodd"
+        d="M42 34 L72 34 A66 66 0 0 1 72 166 L42 166 Z
+           M72 58 A42 42 0 0 1 72 142 Z"
+      />
+      <!-- Diagonal cut 1 — dark band erases from the D -->
+      <polygon points="38,83 144,70 144,82 38,95" fill="black"/>
+      <!-- Diagonal cut 2 — second parallel dark band -->
+      <polygon points="38,108 144,95 144,107 38,120" fill="black"/>
+    </mask>
+  </defs>
+  <!-- White fill clipped by the mask above -->
+  <rect width="200" height="200" fill="white" mask="url(#dMask)"/>
+</svg>

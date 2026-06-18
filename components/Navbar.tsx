@@ -57,13 +57,13 @@ export default function Navbar() {
           {!logoError ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src="/logo.png"
+              src="/logo.svg"
               alt=""
-              style={{ height: '28px', width: 'auto', display: 'block' }}
+              style={{ height: '30px', width: 'auto', display: 'block' }}
               onError={() => setLogoError(true)}
             />
           ) : (
-            <span style={{ color: '#D97706', fontWeight: 700, fontSize: '20px', lineHeight: 1 }}>
+            <span style={{ color: '#F5F0E8', fontWeight: 700, fontSize: '20px', lineHeight: 1 }}>
               D
             </span>
           )}

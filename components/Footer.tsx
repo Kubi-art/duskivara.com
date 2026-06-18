@@ -2,7 +2,6 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
-import Image from 'next/image';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -21,14 +20,8 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div className="flex items-center gap-3">
-            <Image
-              src="/logo.png"
-              alt="Duskivara"
-              width={26}
-              height={26}
-              className="w-6.5 h-6.5 object-contain"
-              style={{ filter: 'brightness(0) invert(1)' }}
-            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.svg" alt="" style={{ height: '26px', width: 'auto' }} />
             <span className="text-sm font-semibold tracking-tight text-text-primary">
               Duskivara
             </span>

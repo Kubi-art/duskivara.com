@@ -15,6 +15,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Duskivara — AI Automation for Business',
   description: 'Chatbots, n8n automations, and voice AI agents for small and medium businesses.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export function generateStaticParams() {
