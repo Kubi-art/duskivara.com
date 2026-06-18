@@ -14,43 +14,45 @@ export default function HowItWorks() {
   const steps = t.raw('steps') as Step[];
 
   return (
-    <section id="how-it-works" className="py-32 md:py-40 border-t border-muted/20">
+    <section id="how-it-works" className="py-20 md:py-24 border-b border-divider">
       <div className="max-w-6xl mx-auto px-6 md:px-10">
         <FadeIn>
-          <span className="text-xs uppercase tracking-[0.25em] text-muted-light">
+          <span className="text-[11px] uppercase tracking-[0.15em] text-accent">
             {t('label')}
           </span>
         </FadeIn>
 
         <FadeIn delay={0.1}>
-          <h2 className="mt-4 text-[clamp(2rem,5vw,3.5rem)] font-semibold leading-tight tracking-tightest text-text-primary max-w-xl">
+          <h2 className="mt-4 text-[clamp(1.8rem,4vw,3rem)] font-semibold leading-tight tracking-tightest text-text-primary max-w-lg">
             {t('title')}
           </h2>
         </FadeIn>
 
-        <div className="mt-20 md:mt-24 relative">
-          {/* Connector line desktop */}
-          <div className="hidden md:block absolute top-8 left-0 right-0 h-px bg-muted/20" aria-hidden />
+        <div className="mt-16 md:mt-20 relative">
+          {/* Amber connector line on desktop */}
+          <div
+            className="hidden md:block absolute top-7 left-0 right-0 h-px"
+            style={{ background: 'rgba(217,119,6,0.3)' }}
+            aria-hidden
+          />
 
-          <div className="grid md:grid-cols-3 gap-12 md:gap-8">
+          <div className="grid md:grid-cols-3 gap-10 md:gap-8">
             {steps.map((step, i) => (
-              <FadeIn key={step.number} delay={0.1 + i * 0.12}>
-                <div className="relative">
-                  <div className="flex md:block items-start gap-6 md:gap-0">
-                    <div className="relative flex-shrink-0">
-                      <span className="flex items-center justify-center w-16 h-16 border border-muted/30 text-xs uppercase tracking-widest text-muted-light bg-bg md:relative">
-                        {step.number}
-                      </span>
-                    </div>
+              <FadeIn key={step.number} delay={0.1 + i * 0.1}>
+                <div className="flex md:block items-start gap-6 md:gap-0">
+                  <div className="flex-shrink-0">
+                    <span className="flex items-center justify-center w-14 h-14 border border-divider text-[11px] uppercase tracking-[0.15em] text-accent bg-bg font-semibold">
+                      {step.number}
+                    </span>
+                  </div>
 
-                    <div className="md:mt-10">
-                      <h3 className="text-xl font-semibold tracking-tight text-text-primary">
-                        {step.name}
-                      </h3>
-                      <p className="mt-3 text-sm text-muted-light leading-relaxed max-w-xs">
-                        {step.description}
-                      </p>
-                    </div>
+                  <div className="md:mt-8">
+                    <h3 className="text-base font-semibold tracking-tight text-text-primary">
+                      {step.name}
+                    </h3>
+                    <p className="mt-2.5 text-sm text-muted leading-relaxed max-w-xs">
+                      {step.description}
+                    </p>
                   </div>
                 </div>
               </FadeIn>

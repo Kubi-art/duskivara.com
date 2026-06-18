@@ -4,9 +4,11 @@
 
 :root {
   --bg: #0D1117;
-  --text-primary: #F5F5F0;
-  --accent: #5B21B6;
-  --muted: #3D3D3D;
+  --surface: #111827;
+  --text-primary: #F5F0E8;
+  --accent: #D97706;
+  --muted: #6B7280;
+  --divider: #1F2937;
 }
 
 * {
@@ -25,8 +27,8 @@ body {
 }
 
 ::selection {
-  background-color: #5B21B6;
-  color: #F5F5F0;
+  background-color: #D97706;
+  color: #0D1117;
 }
 
 ::-webkit-scrollbar {
@@ -38,44 +40,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #3D3D3D;
+  background: #1F2937;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #5B21B6;
-}
-
-/* Hero background orbs */
-.hero-orb {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(120px);
-  opacity: 0.07;
-  animation: drift linear infinite;
-}
-
-.hero-orb-1 {
-  width: 600px;
-  height: 600px;
-  background: #5B21B6;
-  top: -100px;
-  right: -100px;
-  animation-duration: 40s;
-}
-
-.hero-orb-2 {
-  width: 400px;
-  height: 400px;
-  background: #5B21B6;
-  bottom: 100px;
-  left: -150px;
-  animation-duration: 55s;
-  animation-delay: -20s;
-}
-
-@keyframes drift {
-  0% { transform: translate(0, 0) scale(1); }
-  33% { transform: translate(30px, -20px) scale(1.05); }
-  66% { transform: translate(-20px, 30px) scale(0.97); }
-  100% { transform: translate(0, 0) scale(1); }
+  background: #D97706;
 }

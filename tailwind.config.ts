@@ -10,10 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         bg: '#0D1117',
-        'text-primary': '#F5F5F0',
-        accent: '#5B21B6',
-        muted: '#3D3D3D',
-        'muted-light': '#8B8B8B',
+        surface: '#111827',
+        accent: '#D97706',
+        'accent-hover': '#F59E0B',
+        'text-primary': '#F5F0E8',
+        muted: '#6B7280',
+        divider: '#1F2937',
       },
       fontFamily: {
         sans: ['var(--font-geist-sans)', 'Inter', 'sans-serif'],
@@ -22,6 +24,9 @@ const config: Config = {
       letterSpacing: {
         tightest: '-0.04em',
         tighter: '-0.03em',
+      },
+      borderRadius: {
+        btn: '2px',
       },
     },
   },

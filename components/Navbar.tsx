@@ -26,20 +26,19 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? 'border-b border-muted/30 bg-bg/90 backdrop-blur-md'
-          : 'bg-transparent'
+      className={`fixed top-0 left-0 right-0 z-50 border-b border-divider transition-all duration-500 ${
+        scrolled ? 'bg-bg/95 backdrop-blur-sm' : 'bg-bg'
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
-        <a href={`/${locale}`} className="flex items-center gap-3 group">
+        <a href={`/${locale}`} className="flex items-center gap-3">
           <Image
             src="/logo.png"
             alt="Duskivara"
-            width={32}
-            height={32}
-            className="w-8 h-8 object-contain"
+            width={28}
+            height={28}
+            className="w-7 h-7 object-contain"
+            style={{ filter: 'brightness(0) invert(1)' }}
           />
           <span className="text-text-primary font-semibold tracking-tight text-sm">
             Duskivara
@@ -49,34 +48,34 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           <a
             href="#services"
-            className="text-xs uppercase tracking-widest text-muted-light hover:text-text-primary transition-colors duration-300"
+            className="text-[11px] uppercase tracking-[0.15em] text-muted hover:text-text-primary transition-colors duration-200"
           >
             {t('services')}
           </a>
           <a
             href="#how-it-works"
-            className="text-xs uppercase tracking-widest text-muted-light hover:text-text-primary transition-colors duration-300"
+            className="text-[11px] uppercase tracking-[0.15em] text-muted hover:text-text-primary transition-colors duration-200"
           >
             {t('howItWorks')}
           </a>
           <a
             href="#contact"
-            className="text-xs uppercase tracking-widest text-muted-light hover:text-text-primary transition-colors duration-300"
+            className="text-[11px] uppercase tracking-[0.15em] text-muted hover:text-text-primary transition-colors duration-200"
           >
             {t('contact')}
           </a>
         </div>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3">
           <button
             onClick={switchLocale}
-            className="text-xs uppercase tracking-widest text-muted-light hover:text-text-primary transition-colors duration-300 border border-muted/40 hover:border-muted px-3 py-1.5"
+            className="text-[11px] uppercase tracking-[0.15em] text-muted hover:text-text-primary transition-colors duration-200 border border-divider hover:border-muted/50 px-3 py-1.5"
           >
             {locale === 'pl' ? 'EN' : 'PL'}
           </button>
           <a
             href="#contact"
-            className="hidden md:inline-flex text-xs uppercase tracking-widest bg-accent text-text-primary px-5 py-2.5 hover:bg-accent/80 transition-colors duration-300"
+            className="hidden md:inline-flex text-[11px] uppercase tracking-[0.05em] font-semibold bg-accent text-bg px-5 py-2.5 hover:bg-accent-hover transition-colors duration-200 rounded-btn"
           >
             {t('cta')}
           </a>
