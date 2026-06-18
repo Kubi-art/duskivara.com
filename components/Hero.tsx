@@ -7,8 +7,9 @@ export default function Hero() {
   const t = useTranslations('hero');
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-end bg-bg border-b border-divider">
-      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10 pb-20 pt-40">
+    // No flex justify — content starts at the top, just cleared past the fixed navbar
+    <section className="relative min-h-screen bg-bg border-b border-divider">
+      <div className="max-w-6xl mx-auto px-6 md:px-10 pt-28 pb-20">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -20,7 +21,7 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        <div className="overflow-hidden mb-2">
+        <div className="overflow-hidden mb-1">
           <motion.h1
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
@@ -60,19 +61,18 @@ export default function Hero() {
             <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
           </a>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="absolute bottom-8 right-10 hidden md:flex flex-col items-end gap-3"
-        >
-          <div className="w-px h-12 bg-divider" />
-          <span className="text-[10px] uppercase tracking-[0.3em] text-muted/50">
-            scroll
-          </span>
-        </motion.div>
       </div>
+
+      {/* Scroll hint anchored to bottom of the full-height section */}
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 1.2 }}
+        className="absolute bottom-8 right-10 hidden md:flex flex-col items-end gap-3"
+      >
+        <div className="w-px h-12 bg-divider" />
+        <span className="text-[10px] uppercase tracking-[0.3em] text-muted/50">scroll</span>
+      </motion.div>
     </section>
   );
 }

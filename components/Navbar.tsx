@@ -2,7 +2,6 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
-import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 export default function Navbar() {
@@ -11,6 +10,7 @@ export default function Navbar() {
   const router = useRouter();
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const [logoError, setLogoError] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 40);
@@ -31,20 +31,28 @@ export default function Navbar() {
       }`}
     >
       <nav className="max-w-6xl mx-auto px-6 md:px-10 h-16 flex items-center justify-between">
-        <a href={`/${locale}`} className="flex items-center gap-3">
-          <Image
-            src="/logo.png"
-            alt="Duskivara"
-            width={28}
-            height={28}
-            className="w-7 h-7 object-contain"
-            style={{ filter: 'brightness(0) invert(1)' }}
-          />
-          <span className="text-text-primary font-semibold tracking-tight text-sm">
+        {/* Logo */}
+        <a href={`/${locale}`} className="flex items-center gap-2.5">
+          {!logoError ? (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src="/logo.png"
+              alt=""
+              height={28}
+              style={{ height: '28px', width: 'auto', display: 'block' }}
+              onError={() => setLogoError(true)}
+            />
+          ) : (
+            <span style={{ color: '#D97706', fontWeight: 700, fontSize: '20px', lineHeight: 1 }}>
+              D
+            </span>
+          )}
+          <span className="text-text-primary font-medium tracking-tight text-sm">
             Duskivara
           </span>
         </a>
 
+        {/* Desktop nav */}
         <div className="hidden md:flex items-center gap-8">
           <a
             href="#services"
@@ -66,6 +74,7 @@ export default function Navbar() {
           </a>
         </div>
 
+        {/* Right side */}
         <div className="flex items-center gap-3">
           <button
             onClick={switchLocale}
