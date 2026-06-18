@@ -29,15 +29,17 @@ export default function Problem() {
           {items.map((item, i) => (
             <FadeIn key={item.number} delay={0.08 * i}>
               <div className="py-8 md:py-0 md:px-10 first:md:pl-0 last:md:pr-0">
-                <span className="block text-[4.5rem] md:text-[5.5rem] font-semibold leading-none tracking-tightest text-accent/30 mb-6 select-none">
+                <span className="block text-[4.5rem] md:text-[5.5rem] font-semibold leading-none tracking-tightest text-accent/20 mb-4 select-none">
                   {item.number}
                 </span>
-                <p className="text-base font-semibold text-text-primary mb-2">
-                  {item.title}
-                </p>
-                <p className="text-sm text-muted leading-relaxed max-w-xs">
-                  {item.text}
-                </p>
+                <div className="pl-6">
+                  <p className="text-base font-semibold text-text-primary mb-2">
+                    {item.title}
+                  </p>
+                  <p className="text-sm text-muted leading-relaxed max-w-xs">
+                    {item.text}
+                  </p>
+                </div>
               </div>
             </FadeIn>
           ))}
