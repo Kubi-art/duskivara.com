@@ -11,6 +11,64 @@
     "subtext": "Automatyzujemy powtarzalne zadania — obsługę klientów, zbieranie leadów, follow-upy — żebyś mógł skupić się na tym, co ważne.",
     "cta": "Porozmawiajmy"
   },
+  "announcement": {
+    "text": "Pierwsze 5 firm w lipcu otrzymuje wdrożenie w 5 dni — zostały 3 miejsca"
+  },
+  "heroTrust": {
+    "item1": "Bez długich umów",
+    "item2": "Wdrożenie w 7 dni",
+    "item3": "Wsparcie po polsku"
+  },
+  "heroNotifications": {
+    "card1Title": "Nowa wiadomość",
+    "card1Message": "Ile kosztuje wymiana opon?",
+    "card2Title": "Bot odpowiedział",
+    "card2Message": "Zapraszamy jutro od 8:00, cena od 120 zł",
+    "card3Title": "Wizyta zapisana",
+    "card3Message": "Piotr K. — jutro 10:00"
+  },
+  "industries": {
+    "label": "Branże",
+    "headline": "Działa w Twojej branży.",
+    "items": ["Warsztaty samochodowe", "Gabinety stomatologiczne", "Salony kosmetyczne", "Szkoły językowe", "Usługi remontowe", "Elektricy i hydraulicy"]
+  },
+  "roi": {
+    "label": "Kalkulator",
+    "headline": "Ile tracisz bez bota?",
+    "subheadline": "Sprawdź w 30 sekund.",
+    "sliderLabel": "Ile zapytań dziennie dostajesz od klientów?",
+    "priceLabel": "Ile warta jest jedna wizyta lub zlecenie? (zł)",
+    "result1Label": "Zapytania po godzinach miesięcznie:",
+    "result2Label": "Szacowane straty miesięcznie:",
+    "result3Label": "Koszt AutoOdpowiedź:",
+    "result3Value": "300 zł / mies",
+    "result4Label": "Twój zwrot z inwestycji:",
+    "cta": "Chcę odzyskać te pieniądze"
+  },
+  "guarantee": {
+    "label": "Gwarancja",
+    "headline": "Zero ryzyka z Twojej strony.",
+    "items": [
+      {"title": "30 dni próby", "text": "Jeśli bot nie zapisze ani jednej wizyty w pierwszym miesiącu — zwracamy setup fee w całości."},
+      {"title": "Bez umów", "text": "Płacisz miesięcznie. Rezygnujesz kiedy chcesz. Bez kar, bez ukrytych opłat."},
+      {"title": "My ustawiamy wszystko", "text": "Ty nie dotykasz żadnego kodu. Jeśli coś nie działa — naprawiamy bezpłatnie."}
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "headline": "Najczęstsze pytania.",
+    "items": [
+      {"q": "Czy muszę umieć coś technicznego?", "a": "Zero. My konfigurujemy wszystko. Ty dostajesz działający system bez dotykania żadnego kodu."},
+      {"q": "Jak długo trwa wdrożenie?", "a": "Standardowo 7–14 dni od pierwszej rozmowy. W prostych przypadkach nawet szybciej."},
+      {"q": "Co jeśli klient zada pytanie na które bot nie zna odpowiedzi?", "a": "Bot przekazuje rozmowę do Ciebie i wysyła powiadomienie. Ty wkraczasz tylko gdy naprawdę trzeba."},
+      {"q": "Czy mogę zrezygnować w każdej chwili?", "a": "Tak. Bez umów, bez kar. Płacisz miesięcznie i rezygnujesz kiedy chcesz."},
+      {"q": "Dla jakich branż to działa najlepiej?", "a": "Warsztaty, gabinety, salony, szkoły językowe, usługi remontowe. Jeśli masz klientów którzy piszą lub dzwonią — bot pomoże."},
+      {"q": "Ile to realnie kosztuje miesięcznie?", "a": "Od 300 zł miesięcznie za subskrypcję plus jednorazowy setup. Większość klientów odrabia koszt w pierwszym tygodniu."}
+    ]
+  },
+  "mobileCta": {
+    "button": "Umów bezpłatną rozmowę"
+  },
   "problem": {
     "label": "Problem",
     "intro": "Każdego dnia tracisz czas na rzeczy, które maszyna może zrobić lepiej.",

@@ -11,6 +11,64 @@
     "subtext": "We automate repetitive tasks — customer support, lead capture, follow-ups — so you can focus on what matters.",
     "cta": "Let's talk"
   },
+  "announcement": {
+    "text": "First 5 businesses in July get deployment in 5 days — 3 spots left"
+  },
+  "heroTrust": {
+    "item1": "No long-term contracts",
+    "item2": "Live in 7 days",
+    "item3": "Support in Polish"
+  },
+  "heroNotifications": {
+    "card1Title": "New message",
+    "card1Message": "How much does a tyre change cost?",
+    "card2Title": "Bot replied",
+    "card2Message": "We're open from 8am tomorrow, from 120 zł",
+    "card3Title": "Appointment booked",
+    "card3Message": "Piotr K. — tomorrow 10:00"
+  },
+  "industries": {
+    "label": "Industries",
+    "headline": "Works in your industry.",
+    "items": ["Auto repair shops", "Dental clinics", "Beauty salons", "Language schools", "Renovation services", "Electricians & plumbers"]
+  },
+  "roi": {
+    "label": "Calculator",
+    "headline": "How much are you losing without a bot?",
+    "subheadline": "Find out in 30 seconds.",
+    "sliderLabel": "How many enquiries do you get per day?",
+    "priceLabel": "How much is one appointment or job worth? (PLN)",
+    "result1Label": "After-hours enquiries per month:",
+    "result2Label": "Estimated monthly losses:",
+    "result3Label": "AutoReply cost:",
+    "result3Value": "300 zł / mo",
+    "result4Label": "Your return on investment:",
+    "cta": "I want to recover this money"
+  },
+  "guarantee": {
+    "label": "Guarantee",
+    "headline": "Zero risk on your part.",
+    "items": [
+      {"title": "30-day trial", "text": "If the bot doesn't book a single appointment in the first month — we refund the setup fee in full."},
+      {"title": "No contracts", "text": "Pay monthly. Cancel whenever you want. No penalties, no hidden fees."},
+      {"title": "We set everything up", "text": "You don't touch any code. If something doesn't work — we fix it for free."}
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "headline": "Common questions.",
+    "items": [
+      {"q": "Do I need any technical skills?", "a": "None at all. We configure everything. You get a working system without touching any code."},
+      {"q": "How long does deployment take?", "a": "Typically 7–14 days from the first conversation. In simpler cases, even faster."},
+      {"q": "What if a client asks a question the bot doesn't know?", "a": "The bot hands the conversation over to you and sends a notification. You step in only when really needed."},
+      {"q": "Can I cancel at any time?", "a": "Yes. No contracts, no penalties. Pay monthly and cancel whenever you want."},
+      {"q": "Which industries work best?", "a": "Repair shops, clinics, salons, language schools, renovation services. If you have clients who write or call — a bot will help."},
+      {"q": "How much does it really cost per month?", "a": "From 300 zł/month for the subscription plus a one-time setup fee. Most clients recover the cost within the first week."}
+    ]
+  },
+  "mobileCta": {
+    "button": "Book a free call"
+  },
   "problem": {
     "label": "The problem",
     "intro": "Every day you waste time on things a machine can do better.",
