@@ -1,0 +1,57 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+import FadeIn from './FadeIn';
+
+export default function CTA() {
+  const t = useTranslations('cta');
+
+  return (
+    <section id="contact" className="py-32 md:py-40 border-t border-muted/20 bg-[#0A0E13]">
+      <div className="max-w-6xl mx-auto px-6 md:px-10">
+        <div className="max-w-4xl">
+          <FadeIn>
+            <h2 className="text-[clamp(1.8rem,5vw,4rem)] font-semibold leading-tight tracking-tightest text-text-primary">
+              {t('headline')}
+            </h2>
+          </FadeIn>
+
+          <FadeIn delay={0.12}>
+            <p className="mt-6 text-sm text-muted-light max-w-sm leading-relaxed">
+              {t('subtext')}
+            </p>
+          </FadeIn>
+
+          <FadeIn delay={0.22}>
+            <div className="mt-12">
+              <a
+                href="mailto:hello@duskivara.com"
+                className="group inline-flex items-center gap-4 bg-accent text-text-primary px-10 py-5 text-xs uppercase tracking-widest hover:bg-accent/80 transition-all duration-300"
+              >
+                {t('button')}
+                <span className="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
+              </a>
+            </div>
+          </FadeIn>
+        </div>
+
+        <FadeIn delay={0.3}>
+          <div className="mt-20 md:mt-28 pt-10 border-t border-muted/20">
+            <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-12">
+              <div className="flex items-center gap-2">
+                <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+                <span className="text-xs text-muted-light">Available now</span>
+              </div>
+              <a
+                href="mailto:hello@duskivara.com"
+                className="text-xs text-muted-light hover:text-text-primary transition-colors duration-300 tracking-wider"
+              >
+                hello@duskivara.com
+              </a>
+            </div>
+          </div>
+        </FadeIn>
+      </div>
+    </section>
+  );
+}
