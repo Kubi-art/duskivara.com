@@ -57,7 +57,7 @@ export default function Navbar() {
           {!logoError ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
-              src="/logo.jpg"
+              src="/logo.png"
               alt=""
               style={{
                 height: '36px',
