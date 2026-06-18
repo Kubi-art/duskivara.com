@@ -19,7 +19,7 @@ const notificationCards = [
     titleKey: 'card2Title' as const,
     messageKey: 'card2Message' as const,
     time: '23:47',
-    borderColor: '#10B981',
+    borderColor: '#D97706',
     enterDelay: 0.9,
     floatDelay: 1,
   },
@@ -157,12 +157,12 @@ export default function Hero() {
                   style={{ borderLeft: `3px solid ${card.borderColor}` }}
                 >
                   <div className="flex items-center justify-between mb-1">
-                    <span className="text-[11px] font-medium text-text-primary">
+                    <span className="text-[11px] font-medium" style={{ color: '#F5F0E8' }}>
                       {tNotif(card.titleKey)}
                     </span>
-                    <span className="text-[10px] text-muted">{card.time}</span>
+                    <span className="text-[10px]" style={{ color: '#6B7280' }}>{card.time}</span>
                   </div>
-                  <p className="text-[12px] text-muted leading-relaxed">
+                  <p className="text-[12px] leading-relaxed" style={{ color: '#9CA3AF' }}>
                     {tNotif(card.messageKey)}
                   </p>
                 </motion.div>

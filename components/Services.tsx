@@ -112,22 +112,20 @@ function ServiceCard({
           )}
 
           <div className="flex-1">
-            <span className="text-sm text-muted">
+            <span className="text-[11px] uppercase tracking-[0.1em] text-accent">
               {item.tagline}
             </span>
 
-            <h3 className="mt-3 text-xl md:text-2xl font-semibold tracking-tighter text-text-primary group-hover:text-accent transition-colors duration-200">
+            <h3 className="mt-3 text-xl md:text-2xl font-semibold tracking-tighter text-text-primary">
               {item.name}
             </h3>
-
-            <div className="mt-4 w-6 h-px bg-divider group-hover:w-12 group-hover:bg-accent/50 transition-all duration-400" />
 
             <p className="mt-5 text-sm text-muted leading-relaxed">
               {item.description}
             </p>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-divider">
+          <div className="mt-8 pt-0">
             <div className="flex items-end justify-between">
               <div>
                 <div className="text-[10px] uppercase tracking-[0.15em] text-muted mb-1">

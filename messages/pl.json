@@ -29,8 +29,9 @@
   },
   "industries": {
     "label": "Branże",
-    "headline": "Działa w Twojej branży.",
-    "items": ["Warsztaty samochodowe", "Gabinety stomatologiczne", "Salony kosmetyczne", "Szkoły językowe", "Usługi remontowe", "Elektricy i hydraulicy"]
+    "headline": "Działa dla każdej firmy usługowej.",
+    "subheadline": "Jeśli masz klientów którzy piszą lub dzwonią — bot pomoże.",
+    "items": ["Warsztaty samochodowe", "Gabinety stomatologiczne", "Salony kosmetyczne i fryzjerskie", "Szkoły językowe i korepetytorzy", "Usługi remontowe i budowlane", "Elektricy i hydraulicy", "Weterynaria i opieka nad zwierzętami", "Siłownie i studia fitness", "Transport i przeprowadzki"]
   },
   "roi": {
     "label": "Kalkulator",

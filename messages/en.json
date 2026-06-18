@@ -29,8 +29,9 @@
   },
   "industries": {
     "label": "Industries",
-    "headline": "Works in your industry.",
-    "items": ["Auto repair shops", "Dental clinics", "Beauty salons", "Language schools", "Renovation services", "Electricians & plumbers"]
+    "headline": "Works for every service business.",
+    "subheadline": "If you have clients who write or call — a bot will help.",
+    "items": ["Auto repair shops", "Dental clinics", "Beauty & hair salons", "Language schools & tutors", "Renovation & construction", "Electricians & plumbers", "Vets & pet care", "Gyms & fitness studios", "Transport & removals"]
   },
   "roi": {
     "label": "Calculator",

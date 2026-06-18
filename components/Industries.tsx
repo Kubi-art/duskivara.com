@@ -9,25 +9,36 @@ import {
   IconBook,
   IconHome,
   IconBolt,
+  IconPaw,
+  IconBarbell,
+  IconTruck,
 } from '@tabler/icons-react';
 
-const icons = [IconCar, IconDental, IconScissors, IconBook, IconHome, IconBolt];
+const icons = [
+  IconCar,
+  IconDental,
+  IconScissors,
+  IconBook,
+  IconHome,
+  IconBolt,
+  IconPaw,
+  IconBarbell,
+  IconTruck,
+];
 
 const containerVariants = {
   hidden: {},
   visible: {
-    transition: {
-      staggerChildren: 0.08,
-    },
+    transition: { staggerChildren: 0.06 },
   },
 };
 
 const itemVariants = {
-  hidden: { opacity: 0, y: 32 },
+  hidden: { opacity: 0, y: 24 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+    transition: { duration: 0.5, ease: [0.22, 1, 0.36, 1] },
   },
 };
 
@@ -53,10 +64,13 @@ export default function Industries() {
           <h2 className="text-3xl md:text-4xl font-semibold text-text-primary tracking-tight">
             {t('headline')}
           </h2>
+          <p className="mt-3 text-sm text-muted max-w-lg">
+            {t('subheadline')}
+          </p>
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-3 gap-4"
+          className="grid grid-cols-2 md:grid-cols-3 gap-3"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -68,15 +82,22 @@ export default function Industries() {
               <motion.div
                 key={index}
                 variants={itemVariants}
-                className="bg-surface border border-divider rounded-sm p-6 group cursor-default transition-all duration-200 hover:border-accent"
+                className="border border-divider rounded-sm p-4 group cursor-default transition-all duration-200"
+                style={{ backgroundColor: '#111827' }}
+                onMouseEnter={e => {
+                  (e.currentTarget as HTMLElement).style.backgroundColor = '#1a2235';
+                  (e.currentTarget as HTMLElement).style.borderColor = '#D97706';
+                }}
+                onMouseLeave={e => {
+                  (e.currentTarget as HTMLElement).style.backgroundColor = '#111827';
+                  (e.currentTarget as HTMLElement).style.borderColor = '#1F2937';
+                }}
               >
-                <div className="inline-block">
-                  <Icon
-                    size={24}
-                    className="text-accent transition-transform duration-200 group-hover:-translate-y-1"
-                  />
-                </div>
-                <p className="text-sm font-medium text-text-primary mt-3">{label}</p>
+                <Icon
+                  size={20}
+                  className="text-accent transition-transform duration-200 group-hover:-translate-y-0.5"
+                />
+                <p className="text-sm font-medium mt-3" style={{ color: '#F5F0E8' }}>{label}</p>
               </motion.div>
             );
           })}
