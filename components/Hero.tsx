@@ -56,16 +56,16 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen bg-bg border-b border-divider overflow-hidden"
+      className="relative bg-bg border-b border-divider overflow-hidden"
       onMouseMove={handleMouseMove}
     >
       {/* Spotlight follows cursor */}
       <motion.div
-        className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-300"
+        className="pointer-events-none absolute inset-0 z-0"
         style={{ background: spotlightBackground }}
       />
 
-      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10 pt-28 pb-20">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10 pt-28 pb-28">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -78,26 +78,22 @@ export default function Hero() {
         </motion.div>
 
         {/* Line 1 — white */}
-        <div className="mb-1 leading-[0.92]">
-          <h1 className="text-[clamp(3rem,8vw,7.5rem)] font-semibold leading-[0.92] tracking-tightest">
-            <WordReveal
-              text={t('headline1')}
-              className="text-text-primary"
-              delay={0.18}
-            />
-          </h1>
-        </div>
+        <h1 className="text-[clamp(2.6rem,7vw,6.5rem)] font-semibold leading-[0.95] tracking-tightest mb-1">
+          <WordReveal
+            text={t('headline1')}
+            className="text-text-primary"
+            delay={0.18}
+          />
+        </h1>
 
         {/* Line 2 — amber */}
-        <div className="mb-14 leading-[0.92]">
-          <h1 className="text-[clamp(3rem,8vw,7.5rem)] font-semibold leading-[0.92] tracking-tightest">
-            <WordReveal
-              text={t('headline2')}
-              className="text-accent"
-              delay={0.48}
-            />
-          </h1>
-        </div>
+        <h1 className="text-[clamp(2.6rem,7vw,6.5rem)] font-semibold leading-[0.95] tracking-tightest mb-16">
+          <WordReveal
+            text={t('headline2')}
+            className="text-accent"
+            delay={0.48}
+          />
+        </h1>
 
         <motion.div
           initial={{ opacity: 0, y: 14 }}
@@ -117,16 +113,6 @@ export default function Hero() {
           </a>
         </motion.div>
       </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.4 }}
-        className="absolute bottom-8 right-10 hidden md:flex flex-col items-end gap-3"
-      >
-        <div className="w-px h-12 bg-divider" />
-        <span className="text-[10px] uppercase tracking-[0.3em] text-muted/50">scroll</span>
-      </motion.div>
     </section>
   );
 }
